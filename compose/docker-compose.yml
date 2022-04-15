@@ -1,7 +1,7 @@
 version: "3"  # optional since v1.27.0
 services:
   vprodb:
-    image: kumarrajdev5/db:latest
+    image: kumarrajdev5/db:v2
     ports:
       - "3306:3306"
     volumes:
